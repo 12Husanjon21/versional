@@ -6,7 +6,12 @@ const Project = () => {
       <div className='bg-img-project'>
         <h1>Our Project</h1>
       </div>
-      <button></button><button></button><button></button><button></button>
+      <div className='btns center'>
+      <button>Bathroom</button>
+      <button>Bedroom</button>
+      <button>Kitchen</button>
+      <button>Living Area</button>
+      </div>
     </div>
   )
 }
